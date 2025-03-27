@@ -11,8 +11,18 @@ kluttrell@lsu.edu
 Latest package with benchmarks on 12/17/2013.
 Copyright, Karen M. Luttrell
 
-## Refrences:
+# REFERENCE: 
+The analytic solution to this problem is provided in Appendix A of the following references: Smith, B. and D. Sandwell (2004), A three-dimensional semianalytic viscoelastic model for time-dependent analysis of the earthquake cycle, J. Geophys. Res., 109, B12401, doi:10.1029/2004JB003185.
 
-Luttrell, K., Sandwell, D., Smith-Konter, B., Bills, B., & Bock, Y. (2007). Modulation of the earthquake cycle at the southern San Andreas fault by lake loading. Journal of Geophysical Research: Solid Earth, 112(B8). https://doi.org/10.1029/2006JB004752
+Surface load specific solution and benchmarks are provided in Appendix A of the following reference: Luttrell, K., and D. Sandwell (2010), Ocean loading effects on stress at near shore plate boundary fault systems, J. Geophys. Res., 115, B08411, doi:10.1029/2009JB006541.
 
-Smith, B., and D. Sandwell (2003), Coulomb stress accumulation along the San Andreas fault system, J. Geophys. Res., 108(B6), 2296, doi:10.1029/2002JB002136
+# To install:
+1) make sure GMT is installed (this code predates GMT5, but worked with GMT4 libraries)
+2) set shell environmental variables GMTHOME and NETCDFHOME to point to gmt/ and netcdf/
+   locations on your machine (e.g., /usr/local/netcdf, etc.)
+3) build library by typing "make" in lib directory.
+4) build binary by typing "make" in src/sl_stress directory.
+5) run Cahuilla_test.com script in test/Cahuilla_example directory. (should make a sensibe plot)
+6) run makefigA1.com script in test/stepload_crosssection_benchmark directory (should make a sensible plot)
+7) If you like, explore the scripts in test/scripts.  These can be used as an example for how one can use the
+   sl_stress code to generate stress history due to a time-varying water level.
