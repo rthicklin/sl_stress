@@ -1,12 +1,12 @@
 # sl_stress
 sl_stress code to compute displacement and stress from a given water load.
 
-Karen Luttrell
-Dept. of Geology and Geophysics
-Louisiana State University
-E235 Howe-Russell-Kniffen
-Baton Rouge, LA 70803
-kluttrell@lsu.edu
+Karen Luttrell  
+Dept. of Geology and Geophysics  
+Louisiana State University  
+E235 Howe-Russell-Kniffen  
+Baton Rouge, LA 70803  
+kluttrell@lsu.edu  
 
 Latest package with benchmarks on 12/17/2013.
 Copyright, Karen M. Luttrell
