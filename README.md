@@ -1,5 +1,15 @@
 # sl_stress
-A three-dimensional semianalytic 2-layer viscoelastic model for time-dependent analysis of the vertical rebound and stress change due to Loading and Unloading. Lake Cahuilla unloading example is included in this repository. The mathematical formulation is provided in the references.
+sl_stress code to compute displacement and stress from a given water load.
+
+Karen Luttrell
+Dept. of Geology and Geophysics
+Louisiana State University
+E235 Howe-Russell-Kniffen
+Baton Rouge, LA 70803
+kluttrell@lsu.edu
+
+Latest package with benchmarks on 12/17/2013.
+Copyright, Karen M. Luttrell
 
 ## Refrences:
 
